@@ -354,6 +354,9 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/* =======      SOCIALS       ======= */
+
 .social-net-list {
   display: flex;
   justify-content: center;
@@ -440,12 +443,6 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-/* .footer-contacts {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-} */
 
 .footer-logo {
   font-family: "Raleway";
