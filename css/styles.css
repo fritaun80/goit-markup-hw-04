@@ -431,6 +431,8 @@ body {
   fill: var(--svg-fill);
   border: 1px solid var(--svg-fill);
   border-radius: 4px;
+  width: 170px;
+  height: 92px;
 }
 
 .custommers-icon:hover,
