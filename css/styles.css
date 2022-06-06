@@ -276,6 +276,7 @@ body {
 
 .clients-icon {
   max-width: 70px;
+  background-color: #f5f4fa;
 }
 
 /* ======= ABOUT ======= */
@@ -362,27 +363,29 @@ body {
   justify-content: center;
   align-items: center;
 }
+.social-net-item {
+  margin-right: 10px;
+}
+.social-net-item:last-child {
+  margin-right: 0;
+}
 
 .social-net-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.social-net-icon {
   fill: var(--svg-fill);
-}
-
-.social-net-icon:hover,
-.social-net-icon:focus {
-  background-color: var(--accent-color);
-  fill: var(--bg-color);
 }
 
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
+}
+
+.social-link:hover .social-net-icon,
+.social-link:focus .social-net-icon {
+  fill: var(--bg-color);
 }
 
 .social-link {
@@ -514,7 +517,7 @@ body {
   font-size: 14px;
   line-height: calc(60 / 44);
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .join-list {
