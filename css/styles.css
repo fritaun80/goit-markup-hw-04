@@ -429,16 +429,27 @@ body {
 }
 .custommers-icon {
   fill: var(--svg-fill);
+}
+
+.custommers-link:hover,
+.custommers-link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.custommers-link:hover .custommers-icon,
+.custommers-link:focus .custommers-icon {
+  fill: var(--accent-color);
+}
+
+.custommers-link {
   border: 1px solid var(--svg-fill);
   border-radius: 4px;
   width: 170px;
   height: 92px;
-}
-
-.custommers-icon:hover,
-.custommers-icon:focus {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ======= Footer ======= */
